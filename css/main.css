@@ -83,56 +83,69 @@ div.presentacion button {
 /*skills*/
 
 section#skills {
-
+    background-color: #F4F4F4;
+    height: 100vh;
 }
 
 #skills div.skills h2 {
-
+    font-family: 'Abel', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 3em;
+    margin-bottom: 3em;
 }
 
 div.tecnologias {
-
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
 }
 
-.tecnologias div.devhtml {
-
+.tecnologias div.devhtml,
+.tecnologias div.devcss,
+.tecnologias div.devJS
+ {
+    flex: 1;
+    text-align: center;
+    margin: 0;
 }
 
-.tecnologias div.devhtml h3 {
-    
+.tecnologias div.devhtml span,
+.tecnologias div.devcss span,
+.tecnologias div.devJS span {
+    font-size: 5em;
 }
 
-.tecnologias div.devhtml p {
-    
+.tecnologias div.devhtml h3,
+.tecnologias div.devcss h3,
+.tecnologias div.devJS h3
+ {
+    font-family: 'Muli', sans-serif;
+    font-size: 2em;
 }
 
-.tecnologias div.devcss {
-
+.tecnologias div.devhtml p,
+.tecnologias div.devcss p,
+.tecnologias div.devJS p
+ {
+    text-align: center;
+    width: 90%;
+    margin-left: 1em;
 }
 
-.tecnologias div.devcss h3 {
-    
-}
-
-.tecnologias div.devcss p {
-    
-}
-
-
-.tecnologias div.devJS {
-
-}
-
-.tecnologias div.devJS h3 {
-    
-}
-
-.tecnologias div.devJS p {
-    
+#skills div.boton-trabajo {
+    text-align: center;
 }
 
 #skills div.boton-trabajo button {
-
+    margin-top: 1.6em;
+    background-color: #3DA5CD;
+    padding: .5em 2em;
+    border: .4px solid black;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.8em;
 }
 
 /*projects*/
