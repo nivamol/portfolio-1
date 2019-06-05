@@ -52,7 +52,12 @@ div.presentacion h1 {
     font-family: 'Muli', sans-serif;
     font-size: 2.5em;
     padding-bottom: .6em;
+    font-weight: lighter;
 
+}
+
+div.presentacion h1 span {
+    font-weight: bold;
 }
 
 div.presentacion p {
