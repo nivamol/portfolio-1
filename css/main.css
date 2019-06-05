@@ -63,10 +63,10 @@ div.presentacion h1 span {
 
 div.presentacion p {
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1.2em;
     width: 800px;
-    font-family: 'Abel', sans-serif;
-    font-style: italic;
+    font-family: 'Muli', sans-serif;
+    font-weight: 100;
 }
 
 div.presentacion button {
