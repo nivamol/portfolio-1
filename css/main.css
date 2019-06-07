@@ -29,6 +29,11 @@ li a {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+li a:hover {
+    color: #3274FF;
+    transition-duration: .6s;
+}
+
 /*hero*/
 
 section#hero{
