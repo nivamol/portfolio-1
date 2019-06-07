@@ -209,7 +209,44 @@ section#projects div.mis_proyectos div.projects img {
 
 /*footer*/
 
+footer {
+    width: 100vw;
+    text-align: center;
+    background-color: #2F2F2F;
+}
 
+footer h3 {
+    color: #3274FF;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+    font-size: 3em;
+    font-family: 'Abel', sans-serif;
+}
+
+form div.nombre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+form div.nombre input.input-1,
+form div.nombre input.input-2 {
+    flex: 0 0 calc(50% - 10rem);
+    margin: 0 1em 2em;
+    height: 3em;
+    border: 0;
+    border-radius: 10px;
+}
+
+form div.nombre input.input-1::placeholder,
+form div.nombre input.input-2::placeholder {
+    font-family: 'Muli', sans-serif;
+    padding-left: 1em;
+} 
+
+div.inputs input {
+    background-color: #272727;
+}
 
 
 
