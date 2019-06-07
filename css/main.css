@@ -154,8 +154,14 @@ section#projects {
 
 }
 
-div.mis-proyectos {
+section#projects h2 {
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 3em;
+}
 
+section#projects div.mis-proyectos {
+    display: flex;
 }
 
 .mis-proyectos div.projects {
