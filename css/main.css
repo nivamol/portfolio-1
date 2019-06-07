@@ -85,6 +85,11 @@ div.presentacion button {
     font-size: 1.8em;
 }
 
+div.presentacion button:hover {
+    background-color: #272727;
+    transition-duration: 1s;
+}
+
 /*skills*/
 
 section#skills {
@@ -151,6 +156,11 @@ div.tecnologias {
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.8em;
+}
+
+#skills div.boton-trabajo button:hover {
+    background-color: #272727;
+    transition-duration: 1s;
 }
 
 /*projects*/
