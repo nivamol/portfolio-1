@@ -154,6 +154,7 @@ section#projects {
     height: 1000px;
     margin-bottom: 4em;
     text-align: center;
+    padding: 0 5em;
 
 }
 
@@ -187,7 +188,7 @@ div.projects h3 {
 
 section#projects div.mis_proyectos div.projects img {
     height: 250px;
-    width: 450px;
+    width: 395px;
     border-radius: 10px 10px 0 0;
 }
 
