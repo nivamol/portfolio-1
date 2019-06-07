@@ -223,7 +223,8 @@ footer h3 {
     font-family: 'Abel', sans-serif;
 }
 
-form div.nombre {
+form div.nombre,
+form div.mensaje {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -244,9 +245,22 @@ form div.nombre input.input-2::placeholder {
     padding-left: 1em;
 } 
 
-div.inputs input {
+form div.mensaje textarea::placeholder {
+    padding: 1em;
+    font-family: 'Muli', sans-serif;
+}
+
+div.inputs input,
+div.inputs textarea {
     background-color: #272727;
 }
+
+div.inputs textarea {
+    border: 0;
+    flex: 0 0 80%;
+    border-radius: 10px;
+}
+
 
 
 
