@@ -151,6 +151,9 @@ div.tecnologias {
 /*projects*/
 
 section#projects {
+    height: 1000px;
+    margin-bottom: 4em;
+    text-align: center;
 
 }
 
@@ -158,14 +161,34 @@ section#projects h2 {
     text-align: center;
     font-family: 'Abel', sans-serif;
     font-size: 3em;
+    margin-top: 3em;
 }
 
-section#projects div.mis-proyectos {
+section#projects div.mis_proyectos {
     display: flex;
+    flex-wrap: wrap;
 }
 
-.mis-proyectos div.projects {
+section#projects div.mis_proyectos div.projects {
+    flex: 1;
+    margin: 1em;
+    width: 330px;
+    height: 400px;
+    -webkit-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.23);
+    box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.23);
+    border-radius: 10px;
 
+}
+
+div.projects h3 {
+    font-family: 'Muli', sans-serif;
+}
+
+section#projects div.mis_proyectos div.projects img {
+    height: 250px;
+    width: 450px;
+    border-radius: 10px 10px 0 0;
 }
 
 /*footer*/
