@@ -224,10 +224,16 @@ footer h3 {
 }
 
 form div.nombre,
-form div.mensaje {
+form div.mensaje,
+form div.asunto {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+form div.asunto input::placeholder {
+    padding: 1em;
+    font-family: 'Muli', sans-serif;
 }
 
 form div.nombre input.input-1,
@@ -245,20 +251,33 @@ form div.nombre input.input-2::placeholder {
     padding-left: 1em;
 } 
 
+form div.asunto input::placeholder {
+    padding-left: .2em;
+    font-family: 'Muli', sans-serif;
+}
+
+form div.asunto input {
+    padding: 1em;
+    flex: 0 0 78%;
+    margin-bottom: 2em;
+}
+
 form div.mensaje textarea::placeholder {
     padding: 1em;
     font-family: 'Muli', sans-serif;
 }
 
-div.inputs input,
-div.inputs textarea {
-    background-color: #272727;
-}
 
-div.inputs textarea {
+div.inputs textarea,
+div.inputs input {
+    background-color: #272727;
     border: 0;
     flex: 0 0 80%;
     border-radius: 10px;
+}
+
+div.inputs::placeholder {
+    color: #555555;
 }
 
 
