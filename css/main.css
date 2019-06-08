@@ -280,6 +280,32 @@ div.inputs::placeholder {
     color: #555555;
 }
 
+div.botones {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+div.botones button {
+    margin: 0 1em;
+    height: 73px;
+    padding: 0 2.2em;
+    border-radius: 10px;
+    font-size: 1.3em;
+    font-family: 'Abel', sans-serif;
+    border: 0;
+}
+
+div.botones button:nth-child(1) {
+    background-color: #3274FF;
+    color: white;
+}
+
+div.botones button:nth-child(2) {
+    background-color: #272727;
+    color: white;
+}
+
 
 
 
